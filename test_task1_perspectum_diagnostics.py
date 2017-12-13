@@ -1,19 +1,24 @@
 input1 = [['g', 'gh', 'ghj', 'g'], ['j', 'ju', 'gh', 'gk', 'gn']]
-# input1 = [['g', 'gh', 'ghj', 'g'], ['j', 'ju', 'gh', 'gk', 'gn'], ['j', 'ju', 'gh']]
+# input1 = [['g', 'gh', 'ghj', 'g'], ['j', 'ju', 'gh', 'gk', 'gn'], ['j', 'ju', 'gh'], ['x'],['x', 'y']]
+# input1 = {'g', 'gh', 'ghj', 'g'}
+# input1 = ['g', 'gh', 'ghj', 'g']
 
 ### total number of strings & number of unique string
 def all_unique_strings(inputlist):
-    jj = len(inputlist)
     inputall=[]
+    # convert inputlist to multi list if input is one list input
+    if type(inputlist[0]) != list:
+        inputlist = [inputlist]
+    jj = len(inputlist)
     for j in range(jj):
         inputall = inputall + inputlist[j]
-    return len(inputall), len(list(set(inputall))), inputall
+    return len(inputall), len(list(set(inputall))), inputall, list(set(inputall))
 
 ### strings appearing in multi lists
 def strings_multilist(inputlist):
     jj = len(inputlist)
     dict1 = {} ; count2 = {} ; multi = []
-    # change lists to dictionary+lists
+    # change lists to dictionary of lists
     for p in range(jj):
         count={}
         for word in inputlist[p]:
@@ -29,17 +34,21 @@ def strings_multilist(inputlist):
         for word in list(set(all_unique_strings(inputlist)[2])):
             if word in dict1[p].keys():
                 count2[word] += 1
-    for ky,vl in count2.items():
-        if vl > 1:
-            multi = multi + [ky]
+    if type(inputlist[0]) == list:
+        for ky,vl in count2.items():
+            if vl > 1:
+                multi = multi + [ky]
     return multi
 
 def testing(inputlist):
-    multilist = strings_multilist(inputlist)
-    uniquestr = all_unique_strings(inputlist)[1]
-    totalstr = all_unique_strings(inputlist)[0]
-    print('Strings appearing in multiple lists : ',end=''); print(*multilist, sep=', ')
-    print('Number of unique strings : ' + str(uniquestr))
-    print('Total number of strings processed : ' + str(totalstr))
+    if type(inputlist) == list:
+        uniquestr = all_unique_strings(inputlist)[1]
+        totalstr = all_unique_strings(inputlist)[0]
+        multilist = strings_multilist(inputlist)
+        print('Strings appearing in multiple lists : ', end=''); print(*multilist, sep=', ')
+        print('Number of unique strings : ' + str(uniquestr))
+        print('Total number of strings processed : ' + str(totalstr))
+    else:
+        print('Error - input is not a list')
 
 testing(input1)
