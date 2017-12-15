@@ -29,12 +29,12 @@ def convert2df(inputlist):
 
 def testing(inputlist):
     if type(inputlist) == list:
-        print('') ; print('input = '+str(inputlist))
+        # print('') ; print('input = '+str(inputlist))
         if type(inputlist[0]) != list:
             inputlist = [inputlist]
-        print('') ; print(convert2df(inputlist)[1].fillna('')) ; print('')
-        print('uniq = '+ str(convert2df(inputlist)[2]))
-        print('') ; print(convert2df(inputlist)[0]) ; print('')
+        # print('') ; print(convert2df(inputlist)[1].fillna('')) ; print('')
+        # print('uniq = '+ str(convert2df(inputlist)[2]))
+        # print('') ; print(convert2df(inputlist)[0]) ; print('')
         multilist = list(convert2df(inputlist)[0]['uniq'].loc[convert2df(inputlist)[0]['TRUE']>1 ])
         print('Strings appearing in multiple lists : ', end=''); print(*multilist, sep=', ')
         print('Number of unique strings : '+str(len(convert2df(inputlist)[0]['uniq'].axes[0])))
