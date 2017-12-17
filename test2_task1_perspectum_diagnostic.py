@@ -28,8 +28,9 @@ def convert2df(inputlist):
     return outputlist, inputdf, uniq
 
 def testing(inputlist):
-    if type(inputlist) == list:
-        # print('') ; print('input = '+str(inputlist))
+    try:
+        inputlist = inputlist + []
+        # print('input = '+str(inputlist))
         if type(inputlist[0]) != list:
             inputlist = [inputlist]
         # print('') ; print(convert2df(inputlist)[1].fillna('')) ; print('')
@@ -39,7 +40,8 @@ def testing(inputlist):
         print('Strings appearing in multiple lists : ', end=''); print(*multilist, sep=', ')
         print('Number of unique strings : '+str(len(convert2df(inputlist)[0]['uniq'].axes[0])))
         print('Total number of strings processed : '+str(int(convert2df(inputlist)[1].apply(pd.value_counts).fillna(0).sum().sum())))
-    else:
+    except:
         print('Error - input is not a list')
+        print('input = ' + str(inputlist))
 
 testing(input1)
