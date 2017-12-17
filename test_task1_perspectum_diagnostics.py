@@ -41,14 +41,16 @@ def strings_multilist(inputlist):
     return multi
 
 def testing(inputlist):
-    if type(inputlist) == list:
+    try:
+        inputlist = inputlist + []
         uniquestr = all_unique_strings(inputlist)[1]
         totalstr = all_unique_strings(inputlist)[0]
         multilist = strings_multilist(inputlist)
         print('Strings appearing in multiple lists : ', end=''); print(*multilist, sep=', ')
         print('Number of unique strings : ' + str(uniquestr))
         print('Total number of strings processed : ' + str(totalstr))
-    else:
+    except:
         print('Error - input is not a list')
+        print('input = ' + str(inputlist))
 
 testing(input1)
