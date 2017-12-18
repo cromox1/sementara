@@ -1,5 +1,5 @@
 import unittest
-from test2_task1_perspectum_diagnostic import *
+from test2_task1_perspectum_diagnostics import *
 
 class TestInputMultiList(unittest.TestCase):
     def setUp(self):
