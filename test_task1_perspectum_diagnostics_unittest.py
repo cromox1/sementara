@@ -1,5 +1,5 @@
 import unittest
-from testing import all_unique_strings,strings_multilist
+from test_task1_perspectum_diagnostics import *
 
 class TestInputMultiList(unittest.TestCase):
     def setUp(self):
