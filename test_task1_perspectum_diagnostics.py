@@ -3,6 +3,8 @@ input1 = [['g', 'gh', 'ghj', 'g'], ['j', 'ju', 'gh', 'gk', 'gn']]
 # input1 = {'g', 'gh', 'ghj', 'g'}
 # input1 = ['g', 'gh', 'ghj', 'g']
 
+import unittest
+
 ### total number of strings & number of unique string
 def all_unique_strings(inputlist):
     inputall=[]
