@@ -1,0 +1,29 @@
+29/09/2018 11:15:25 PM - P01SearchPixitMediaTests - INFO: test1_goto_google_page_started
+29/09/2018 11:15:25 PM - P01SearchPixitMedia - INFO: expectedURL ( https://www.google.co.uk ) VS currentURL ( https://www.google.co.uk )
+29/09/2018 11:15:25 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL -- Currently At Google Page Verified
+29/09/2018 11:15:25 PM - P01SearchPixitMedia - INFO: Element found - locator (lst-ib) + locatorType (id)
+29/09/2018 11:15:25 PM - P01SearchPixitMedia - INFO: Clicked on element - locator (lst-ib) + locatorType (id)
+29/09/2018 11:15:25 PM - P01SearchPixitMedia - INFO: Element found - locator (lst-ib) + locatorType (id)
+29/09/2018 11:15:25 PM - P01SearchPixitMedia - INFO: Sent data (pixitmedia) on element - locator (lst-ib) + locatorType (id)
+29/09/2018 11:15:25 PM - P01SearchPixitMedia - INFO: Element found - locator (//span[@class='lsbb']//input[@value='Google Search']) + locatorType (xpath)
+29/09/2018 11:15:25 PM - P01SearchPixitMedia - INFO: Element present - locator (//span[@class='lsbb']//input[@value='Google Search']) + locatorType (xpath)
+29/09/2018 11:15:25 PM - P01SearchPixitMedia - INFO: Element found - locator (//span[@class='lsbb']//input[@value='Google Search']) + locatorType (xpath)
+29/09/2018 11:15:26 PM - P01SearchPixitMedia - INFO: Clicked on element - locator (//span[@class='lsbb']//input[@value='Google Search']) + locatorType (xpath)
+29/09/2018 11:15:36 PM - P01SearchPixitMedia - INFO: Element not found - locator (pixitmedia - High Performance Software Defined Storage) + locatorType (link)
+29/09/2018 11:15:36 PM - P01SearchPixitMedia - INFO: Element not present - locator (pixitmedia - High Performance Software Defined Storage) + locatorType (link)
+29/09/2018 11:15:46 PM - P01SearchPixitMedia - INFO: Element not found - locator (pixitmedia - High Performance Software Defined Sto) + locatorType (link)
+29/09/2018 11:15:46 PM - P01SearchPixitMedia - INFO: Cannot click on the element - locator (pixitmedia - High Performance Software Defined Sto) + locatorType (link)
+29/09/2018 11:15:51 PM - P01SearchPixitMedia - INFO: expectedURL ( https://www.pixitmedia.com ) VS currentURL ( https://www.google.co.uk )
+29/09/2018 11:15:51 PM - TestStatus - ERROR: ### VERIFICATION FAILED -- test1_google_pixitmedia
+29/09/2018 11:15:52 PM - TestStatus - INFO: Screenshot save to directory: C:\Users\cromox\Desktop\newselenium\UDEMY\PixitMedia\base\..\screenshots\test1_google_pixitmedia_20180929_231551_711402.png
+29/09/2018 11:15:52 PM - TestStatus - ERROR: now at pixitmedia page ### TEST FAILED
+29/09/2018 11:15:52 PM - P01SearchPixitMediaTests - INFO: test2_goto_pixstor_page_started
+29/09/2018 11:15:58 PM - P01SearchPixitMedia - INFO: Element found - locator (//*[@id="menu-item-48"]/*/*) + locatorType (xpath)
+29/09/2018 11:15:58 PM - P01SearchPixitMedia - INFO: Cannot click on the element - locator (//*[@id="menu-item-48"]/*/*) + locatorType (xpath)
+29/09/2018 11:16:02 PM - P01SearchPixitMedia - INFO: Element not found - locator (PixStor Search) + locatorType (link)
+29/09/2018 11:16:02 PM - P01SearchPixitMedia - INFO: Cannot click on the element - locator (PixStor Search) + locatorType (link)
+29/09/2018 11:16:06 PM - P01SearchPixitMedia - INFO: Element not found - locator (//span[@class='elementor-button-text']) + locatorType (xpath)
+29/09/2018 11:16:06 PM - P01SearchPixitMedia - INFO: Cannot click on the element - locator (//span[@class='elementor-button-text']) + locatorType (xpath)
+29/09/2018 11:16:13 PM - P01SearchPixitMediaTests - INFO: test3_fill_in_contactus_page_started
+29/09/2018 11:16:17 PM - P01SearchPixitMedia - INFO: Element not found - locator (//*[@id="menu-item-8974"]/*/*) + locatorType (xpath)
+29/09/2018 11:16:17 PM - P01SearchPixitMedia - INFO: Cannot click on the element - locator (//*[@id="menu-item-8974"]/*/*) + locatorType (xpath)
