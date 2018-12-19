@@ -12,3 +12,4 @@
 6) buy 12V power supply for keyboard/lamp
 7) cari solution for mesin rumput
 8) repair basikal cikMeme
+9) ambik ubat kat Boots
