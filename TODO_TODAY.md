@@ -9,6 +9,6 @@
   - tool to find/check page's elements
 5) Appium :
   - try install motors app to new Android mobile
-5) buy 12V power supply for keyboard/lamp
-6) cari solution for mesin rumput
-7) 
+6) buy 12V power supply for keyboard/lamp
+7) cari solution for mesin rumput
+8) repair basikal cikMeme
