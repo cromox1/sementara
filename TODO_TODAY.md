@@ -1,4 +1,4 @@
-#1) Django website - teruskan :tractor:
+1) Django website - teruskan :tractor:
 2) beli kunci basikal - buy rantai jer - £5 :helicopter:
 3) Apply kerja :
   - D'Overbroke -  https://www.doverbroecks.com/home/vacancies/
