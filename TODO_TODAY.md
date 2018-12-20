@@ -15,5 +15,6 @@
 4) Others :
   - buy 12V power supply for keyboard/lamp + heat shrinking tube
   - cari solution for mesin rumput
+  - Aleya check mata di SpecSaver
 5) Penting :
   - ambik ubat kat Boots
