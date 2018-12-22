@@ -13,10 +13,11 @@
   - bike lights
   - mudguard depan - basikal Rushdi & Zahedi
   
-4) Others :
+4) Penting :
+  - ambik ubat kat Boots
+  - Scrap kereta Peugeot - hantar V5C form this friday 28 Dec 2018
+  
+5) Others :
   - buy 12V power supply for keyboard/lamp + heat shrinking tube
   - cari solution for mesin rumput
   - Aleya check mata di SpecSaver :tractor: dah tunda ke hari Ahad 13.50pm
-  
-5) Penting :
-  - ambik ubat kat Boots
