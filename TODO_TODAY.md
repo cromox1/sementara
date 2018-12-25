@@ -20,4 +20,4 @@
 5) Others :
   - buy 12V power supply for keyboard/lamp + heat shrinking tube
   - cari solution for mesin rumput
-  - Aleya check mata di SpecSaver :tractor: dah tunda ke hari Ahad 13.50pm :heavy_check_mark:
+  - Aleya check mata di SpecSaver - dah tunda ke hari Ahad 13.50pm :heavy_check_mark: ambik 29/12/2018
