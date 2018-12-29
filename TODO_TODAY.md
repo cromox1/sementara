@@ -8,13 +8,13 @@
   
 3) Basikal :
     - beli kunci basikal - buy rantai jer - £5 :helicopter: ntah le
-    - repair basikal cikMeme
+    - repair basikal cikMeme :x: beyond repair - lebih baik beli baru
     - bike lights    
   
 4) Penting :    
     - Scrap kereta Peugeot 
         - hantar V5C form this friday 28 Dec 2018 :heavy_check_mark:
-        - stop insurance keter    
+        - stop insurance keter :heavy_check_mark:  
   
 5) Others :
     - ajar Maths :
