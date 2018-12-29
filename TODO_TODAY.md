@@ -10,11 +10,9 @@
 3) Basikal :
     - beli kunci basikal - buy rantai jer - £5 :helicopter: ntah le
     - repair basikal cikMeme
-    - bike lights
-    - mudguard depan - basikal Rushdi & Zahedi :heavy_check_mark:
+    - bike lights    
   
-4) Penting :
-    - ambik ubat kat Boots
+4) Penting :    
     - Scrap kereta Peugeot - hantar V5C form this friday 28 Dec 2018
   
 5) Others :
@@ -24,3 +22,4 @@
     - buy 12V power supply for keyboard/lamp + heat shrinking tube
     - cari solution for mesin rumput
     - Aleya check mata di SpecSaver - dah tunda ke hari Ahad 13.50pm :heavy_check_mark: ambik 29/12/2018
+    - beli lampu mentol/floresen
