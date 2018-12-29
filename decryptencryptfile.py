@@ -1,5 +1,13 @@
 __author__ = 'cromox'
+"""
+$ python3 decryptencryptfile.py
+Your Input File: testGC.py
+Your Output File: testGCrosli3.py
+Word shift: abcefg
+Encrypt/Decrypt: e
 
+$
+"""
 fileinput = input('Your Input File: ')
 fileoutput = input('Your Output File: ')
 wordshift = input('Word shift: ')
