@@ -3,8 +3,7 @@
     - Selenium - tool to find/check page's elements
     - Appium - try install motors app to new Android mobile
   
-2) Apply kerja :
-    - D'Overbroke -  https://www.doverbroecks.com/home/vacancies/  :heavy_check_mark: pos je belum
+2) Apply kerja :    
     - QueenCollege - https://www.queens.ox.ac.uk/systems-officer
   
 3) Basikal :
@@ -13,7 +12,9 @@
     - bike lights    
   
 4) Penting :    
-    - Scrap kereta Peugeot - hantar V5C form this friday 28 Dec 2018
+    - Scrap kereta Peugeot 
+        - hantar V5C form this friday 28 Dec 2018 :heavy_check_mark:
+        - stop insurance keter    
   
 5) Others :
     - ajar Maths :
