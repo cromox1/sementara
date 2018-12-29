@@ -1,5 +1,20 @@
 __author__ = 'cromox'
+"""
+$ python3 decryptencrypt.py
+Your sentences: Test Encrypt Sentence 2468 to 3690 or aything
+Word shift: testword
+Encrypt/Decrypt: Encrypt
 
+Kjik Jbnhyfk Ijbkjbnj 8765 kc 3690 ch pyktebw
+
+$ python3 decryptencrypt.py
+Your sentences: Kjik Jbnhyfk Ijbkjbnj 8765 kc 3690 ch pyktebw
+Word shift: testword
+Encrypt/Decrypt: Decrypt
+
+Test Encrypt Sentence 2468 to 3690 or aything
+$
+"""
 ayattotest = input('Your sentences: ')
 wordshift = input('Word shift: ')
 whattodo = input('Encrypt/Decrypt: ')
