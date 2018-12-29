@@ -13,6 +13,7 @@ Word shift: testword
 Encrypt/Decrypt: Decrypt
 
 Test Encrypt Sentence 2468 to 3690 or aything
+
 $
 """
 ayattotest = input('Your sentences: ')
