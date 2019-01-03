@@ -1,6 +1,6 @@
 __author__ = 'cromox'
 
-ayattotest = input('Your sentences: ')
+fileinput = input('Your Input File: ')
 wordshift = input('Word shift: ')
 whattodo = input('Encrypt/Decrypt: ')
 
@@ -48,15 +48,18 @@ def encryptdecrypt(ccrypt, wordshift, sentence):
     if len(ccrypt) >= 1:
         if ccrypt == 'e' or ccrypt == 'encrypt' or ccrypt == 'E' or ccrypt == 'Encrypt' or ccrypt[0] == 'E' or ccrypt[0] == 'e':
             ayatone = processtukar(charone, chartwo, sentence)
-            ayattwo = processtukar(charone, chartwo, ayatone)
+            return processtukar(charone, chartwo, ayatone)
         else:
             ayatone = processtukar(chartwo, charone, sentence)
-            ayattwo = processtukar(chartwo, charone, ayatone)
+            return processtukar(chartwo, charone, ayatone)
     else:
         ayatone = processtukar(chartwo, charone, sentence)
-        ayattwo = processtukar(chartwo, charone, ayatone)
-    return ayattwo
+        return processtukar(chartwo, charone, ayatone)
 
 print()
-ayattukar = encryptdecrypt(whattodo, wordshift, ayattotest)
-print(ayattukar)
+print('================ output of ' + fileinput + ' file ================')
+print()
+with open(fileinput) as filein:
+    for line in filein:
+        linetukar = encryptdecrypt(whattodo, wordshift, line)
+        print(linetukar, end='')

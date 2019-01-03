@@ -1,13 +1,5 @@
 __author__ = 'cromox'
-"""
-$ python3 decryptencryptfile.py
-Your Input File: testGC.py
-Your Output File: testGCrosli3.py
-Word shift: abcefg
-Encrypt/Decrypt: e
 
-$
-"""
 fileinput = input('Your Input File: ')
 fileoutput = input('Your Output File: ')
 wordshift = input('Word shift: ')
@@ -54,9 +46,13 @@ def encryptdecrypt(ccrypt, wordshift, sentence):
     charone = tukaran[0]
     chartwo = tukaran[1]
 
-    if ccrypt == 'e' or ccrypt == 'encrypt' or ccrypt == 'E' or ccrypt == 'Encrypt':
-        ayatone = processtukar(charone, chartwo, sentence)
-        return processtukar(charone, chartwo, ayatone)
+    if len(ccrypt) >= 1:
+        if ccrypt == 'e' or ccrypt == 'encrypt' or ccrypt == 'E' or ccrypt == 'Encrypt' or ccrypt[0] == 'E' or ccrypt[0] == 'e':
+            ayatone = processtukar(charone, chartwo, sentence)
+            return processtukar(charone, chartwo, ayatone)
+        else:
+            ayatone = processtukar(chartwo, charone, sentence)
+            return processtukar(chartwo, charone, ayatone)
     else:
         ayatone = processtukar(chartwo, charone, sentence)
         return processtukar(chartwo, charone, ayatone)
