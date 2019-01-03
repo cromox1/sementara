@@ -3,13 +3,13 @@
     - Selenium - tool to find/check page's elements
         - testOne (search any), testTwo (search ids), TestTri (search name) :heavy_check_mark:
         - PixitMedia selenium testing :heavy_check_mark:
-        - tool for link_text
+        - tool for link_text :heavy_check_mark:
         - tool for view and check source page
     - Appium - try install motors app to new Android mobile
     - decrypt/encrypt sentence/files :train: halfly done
   
 2) Apply kerja :    
-    - QueenCollege - https://www.queens.ox.ac.uk/systems-officer
+    - QueenCollege - https://www.queens.ox.ac.uk/systems-officer :x: terlepas
   
 3) Basikal :
     - beli kunci basikal - buy rantai jer - £5 :helicopter: 
