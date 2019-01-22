@@ -1,0 +1,221 @@
+1) What you know about the Passiv Systems
+
+- smart energy platform
+- have developed a range of home energy services
+- forefront company of making energy use more efficient and more affordable for millions of household
+- 
+
+- 2010 - 1st company to launch a smart thermostat that allowed consumers to remotely control the heating
+- 2015 - UK's no 1 residential Solar PV asset mgmt services business
+- 2016 - world's first predictive load mgmt service for optimising CHP equipment for residential
+
+-- > We are all about putting consumers back in control of their energy costs and providing energy asset owners with improve financial returns.
+
+Products :
+ - Solar PV
+ - Distric Heating
+ - Utilities
+
+PassivLiving - control your home heating remotely using PassivLiving for Android
+
+
+Secure, scalable cloud-based home energy service platform
+
+
+Home Energy Mgmt System :
+ - Central Heating
+ - Hot Water
+ - Standby Control
+ - Energy Monitor
+ - 
+
+
+Smart Energy Mgmt Sw - Intelligent energy sw solutions developed by PassivSystems to address opportunities in residential homes, which have arisen and continue to arise
+
+https://www.businessgreen.com/bg/profile/3067361/passivsystems
+--------------------------------------------------------------
+PassivSystems - developed home service platform which provides an online smart heating service, enabling households to control their heating and hot water remotely using smartphone, tablet or PC.
+
+The systems uses learning algorithhms and external wheather feed provided via the internet to develop a physics model of how to deliver comfort at least cost. The systems consists of a hub with data collection, computing and control capabilities which maintaina a connection to cloud storage and data processing via the internet.
+
+The hub feed to the PassivPro portal, a secure, scalable, cloud-based IoT home energy services platform enabling complete of the performance of the energy assets. PassivPro supports a range of applications with immediately deployable solutions for free-standing heating systems, hot water, district heating, heat pumps and rooftop solar PV.
+
+The combination of smart heating controls and the PassivPro portal enables PassivSystems to aggregate and demand manage the network loads for superior energy eficiency. Using this technology, PassivSystems can actively manage demand peaks to flatten the demand profile across a portfoloio of buildings, it can also lower energy usage, reduce running and system repair costs and achieve better energy efficiency.
+
+The system is designed to allow asset owners and businesses to get better value for money while reducing their carbon footprint and greenhouse gas emissions.
+
+
+
+1.1) Passivliving
+
+
+- need to install PassivLiving/PassivSystems components to your home
+- then go to PassivLiving registration
+- register to passivliving website using Activation code (identify your hub to us) / or scan QR code
+
+
+
+
+2) Example of things mention on my CV
+
+example manual testing
+
+- HomeBase - recovery of server Physical to Physical, V2P, P2V, V2V --- linux esp
+
+- DPA - 
+
+eCDA
+
+
+example automation testing
+
+- REST API
+
+- UI automation using Selenium - Account login & permission
+
+areas / section that can be access
+
+3) Greatest technical challenges & how you overcome that
+
+3.1) I have been assign to produce a script / program that can easily check what latest versions in Development folder (that has been tested & release), Developemnt/Testing Cloud (we called it Staging) & Production Cloud
+
+It involved MS (Account, License-gateway, Registration-WebApp, Cacacity-Forecast, InfraIQ, Datadomain.... (34 - 5 services) )& non-MS (Registration-WebApp, UnauthContent-tenant, WebPortal-www, Cloud-Token-Service & UAA ( 5 services) )
+
+- Development folder latest version - take folder directory name, then filter its to get version and release date
+- Some services (usually Non-MS) - need to check from Jenkins - need to login to Jenkins & get version + release date (using REST API call - requests)
+- for Staging & Production services version - check using REST API to specific path
+
+3.2) 
+
+4) how you have automated processes
+
+4.1) Direct Automation process - this is my 1st automation - which is I use bash scripts first (using awk/sed & curl), the using Python -- using REST API
+
+4.2) GUI web automation - to website - using Selenium Webdriver
+
+4.3) Mobile app testing - using Appium server setup in my PC - Android emulator - Android 8.1 (Google APIs) - Pixel_API_27 Emulator-5554 - resolution 1080x1920: xxhdpi
+
+5) when and how you last learnt a new skill
+
+Oct 2018 - when I decide to learn and setting up Django server that use website and SQL
+
+6) how you keep up to date with technology
+
+By apply for jobs and their requirement. 
+This make me learn and try myself on Django & Appium.
+
+7) what motivates you
+
+8) specific questions - regarding testing (automated & manual) 
+	(the questions will relate to both knowledge and approach to testing & problem solving)
+
+9) good knowledge of web testing tools and methodologies
+
+10) solid working knowledge of Linux
+
+11) Methodical with a highly through and structured approach to work
+
+12) enquiring mind
+
+13) automated testing of web based applications using tools such as Selenium or JMeter
+
+Selenium vs JMeter
+
+JMeter focus on network protocol, while Selenium web browser front-end testing
+
+Selenium
+- how web pages are rendered
+- how the user session is handles
+- the quality of user experience
+
+JMeter
+- communication channel
+- holds the constant request/response rate
+- formats the request message dynamically
+- verifies the response message to match the request
+
+
+
+
+14) working experience of an OOP programming language such as Java
+
+15) Linux shell scripting
+
+16) previous experience in testing of enterprise deployments
+
+17) creation & manipulation of test data using SQL
+
+SHOW TABLES;
+
+CREATE DATABASE testoneDB;
+
+SELECT * FROM auth_user;
+
+INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+
+UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;
+
+DELETE FROM table_name WHERE condition;
+
+ALTER TABLE - used to add, delete or modify columns in an existing table. also used to add and drop various constrains on an existing table
+
+ALTER TABLE table_name ADD column_name datatype;
+
+ALTER TABLE table_name DROP column_name;
+
+18) what is OOP to you?
+
+a type of computer programming (sw design) in which programmers define not only the data type of a data structure, but also the type of operations (functions) that can be applied to the data structure.
+
+it start with class, initalization, functions, and have specifial object use - like word 'self' or any other word
+
+while POP is procedure oriented programming - will start with function or even just script to run the programming.
+
+19) Type of Testing :
+
+Black Box Testing
+ behaviour testing - internal structure/design/implementation of the item being test is not known to the tester - can be functional or non-functional testing - though usually functional
+White Box Testing
+Sanity and Regression Testing
+ sanity testing - subset of regression testing - performed when we do not have enough time for doing testing. is a surface level testing where QA verifies that ll the menus, functions, commands available in the product and project are working fine. basic test to quickly evaluate wheter a claim or the result of a calculation can be possibly true.
+
+ regression testing - testing changes to compute programs to make sure that older programming still works with the new changes. normal part of the program dev process, and in larger company, is done by code testing specialists. it's running functional & nonfunctional testing
+
+Intergration Testing
+ level of sw testing where individuals units are combines and tested as a group. to expose faults in the interaction between integrated units
+
+System Testing
+ level  of sw testing where a complete and integrated sw is tested
+
+Acceptance Testing
+Smoke Testing
+
+20) SDLC ?
+
+Software Design & Delivery
+
+SDLC is a process that produces sw with the highest quality and lowest cost in the shortest time ( highest quality, lowest cost, shortest time)
+
+Popular SDLC - Waterfall model, spiral model, agile model
+
+best practices -
+1) identifies the current problems
+2) plan
+3) design
+4) build
+5) test
+6) deploy
+7) maintain
+
+Agile -
+sw is developed in incremental, rapid cycle. Interactions among customers, developers and client are emphasize rather than process and tools
+focuses on responding to change rather tham extensive planning
+
+
+
+
+
+OTHER
+-----
+
+AD & LDAP tool - JXplorer 

@@ -1,0 +1,187 @@
+Mark:
+-----
+
+1) How are you Rosli?
+
+I'm doing fine. How about you
+
+2) How was your journey?
+
+My journey was fine. I rent a car just for this interview.
+
+3) Do you have any questions about our products or business?
+
+
+
+Danny & Ben:
+------------
+
+4) Do you have your visa documents with you?
+
+
+
+5) Tell us a bit about your testing experience?
+
+I've been a tester for nearly 10 years with EMC. Most of my area of expertise and been assigned for is to test Unix and Linux. 
+
+6) What is your understanding of a normal Software Development Life Cycle?
+
+SDLC is a process to delevelope software with high quality in efficient way - lowest cost, shortest time.
+
+SDLC - general term for a category of methodlogies and a sw development process a more specific term to refer to a specific process chosen by a specific organization.
+
+This process includes :
+- identify problem
+- plan
+- design
+- build
+- test
+- deploy and
+- maintain
+
+other:
+
+ALM (Application Lifecycle Management, HP Quality Centre)
+
+- product lifecycle mgmt (governance, development & maintenance) of computer programs
+- it encompassses requirements mgmt, sw architecture, computer programming, sw testing, sw maintenance, change mgmt, CI, project mgmt & release mgmt
+
+
+7) Tell us about your Unix knowledge
+
+
+RHCE certification
+
+8) What Jira experience do you have?
+
+Jira is a bug tracking system. Using Jira, I can create/document/manage my test plan/cases, plan, track and manage my testing. 
+
+9) What Python programming have you done?
+
+
+Test:
+-----
+
+10) Please build a set of test cases that could be used to test part of e.g. the reserva room reservation application.
+
+Installation testing
+- OS? Windows/Unix/Linux
+- 32bit/64bit
+- graphic requirement
+- minimum requirement - CPU, memory, HD space
+- 
+
+Reserva room :
+- BVA - secs before & after time booking
+- EP - can login when in time & can't login when outside the time
+- booking - can I booking the booked room when it's nearly finished the time -- to check what minimum time gap before room be able to book
+- room been cancelled -- can I book after that
+- 
+
+11) What techniques do you use to create test cases?
+
+- Specification-based techniques (or Black-Box techniques)
+- Experience-based techniques
+- BVA - Boundary Value Analysis
+- EP - Equivalent Partition
+- Decision Table testing
+- State transition diagrams
+- Use Case testing
+- Statement Testing & Coverage
+
+All above broadly classified into 3 MAJOR categories :
+
+-- Specification-Based techniques -- 11.2
+-- Structure-Based techniques -- 11.2
+-- Experience-Based techniques -- 11.3
+
+11.1) Specification-Based or Black-Box techniques
+- BVA
+- EP
+- Decision table testing
+- State Transition Diagrams
+- Use Case testing
+
+11.2) Structure-Base or White-Box techniques
+- Statement Testing & Coverage
+- Decision Testing Coverage
+- Condition Testing
+- Multiple Condition Testing
+- All Path Testing
+
+11.3) Experience-Based techniques
+- Error Guessing
+- Exploratory Testing
+
+12) Do you have any questions for us regarding the QA team or the QA role we are recruiting for?
+
+-- what type of Linux do you use the most
+-- 
+
+HR:
+---
+
+13) What do you think about the role at OneLan - is it suitable for you?
+
+The role is suitable for me. It's a combination of hardware and software, and manual & some automation testing, which I have been involved for nearly 10 years. I've been using Linux for about 15 years, and I have RHCE - world certified Linux professional services in 2004. 
+
+In EMC, I use Jira where I create bug tickets. The ticket I put all the information and steps on how to reproduce the problem, version, logs, and I also can put my thought of the problem. 
+
+14) What skills do you have to offer?
+
+I have unix/Linux experience, as I have worked with Unix since graduated and then move on to Linux - mean I have been working with unix/Linux for nearly 20 yrs. 
+
+I have been working as Systems Engineer before and have dealt with installation, maintained, services and repair of the Unix systems - SGI. I have experienced in changed parts of Unix systems - because of parts problem or to upgrade - graphic card, memory chips, power supply, etc... , also installed external hard disk.
+
+I also from EES engineering background and have experienced repair power supply
+
+15) What are your strengths and weaknesses?
+
+My strengths :
+- I am very capable technically 
+- I like to automate my work using bash and python scripts. It take times at first, but will become more easier after that, especially to the testing jobs that need repetitive testing. 
+- by automate repetitive testing, I can think other things to test the product
+- I would like to find the other side of the product to test, but still in the area that important and good for the quality of the product. Like in EMC
+-- email from yahoo.com.my
+-- agent to collect data for DPA & eCDA which is a VM from Linux, that I easily erase the root passwd
+-- 
+
+My weaknessess :
+- I can't express myself clearly. this is due to English is my second language, but I have been working in Dell EMC for 10 years, and I have been involved in technicall discussions, presentation and demos of our team in Abingdon works all this 10 years. 
+- my English - but I have demoed many of our team in Abingdon works for the whole company and 
+- 
+
+16) Where would you like to be in your career in 5 years time?
+
+I would like to become Automation Tester Engineer expert. Automation Tester can be from UI Automation tester using Selenium to web browser, or using script - either bash script or Python3 - using underneath communication like REST API or something like that. 
+
+(REST API has no official standard at all because it is an architectural style.)
+(SOAP API, on the other hand, has an official standard because it is a protocol.)
+
+(REST APIs uses multiple standards like HTTP, JSON, URL, XML
+SOAP APIs is largely based on HTTP and XML)
+
+I have used bash script in EMC to automate Homebase, DPA and eCDA. 
+
+I would like to enhance my Python knowledge and become Python Developer
+
+17) Why should we employ you?
+
+- I am very capable technically. 
+- I have solid understanding of software design & delivery (SDLC)
+- I have work on diverse products. In EMC I've been involved in 4 products - EMC Homebase, EMC ViPR, EMC DPA and Dell EMC eCDA. I have many experience on diverse products, testing systems & tools
+- I willing to learn and assimilate to new env, going through internal courses and get mentor from experienced & skilled engineer or on-the-job training on project
+- I will bring my creativity and enthusiasm and innovation to build great products
+- I have experienced in EMC - on produce steps that exhibit bugs in the product - also been able to reproduce and communicate those steps
+- understand h/w & s/w interaction 
+
+18) Do you have any final questions?
+
+Other
+-----
+- check display resolution... and how to change display resolution
+-- xrandr
+-- xdpyinfo
+
+to change resolution:
+-- xrandr --output DVI-I-1 --mode 1680x1024
