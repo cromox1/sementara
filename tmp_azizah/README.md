@@ -1,1 +1,1 @@
-#sementara ajer#
+# sementara ajer
